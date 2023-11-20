@@ -1,0 +1,13 @@
+H:\MOD003263\WindowsFormsApp2\bin\Debug\Database1.mdf
+H:\MOD003263\WindowsFormsApp2\bin\Debug\Database1_log.ldf
+H:\MOD003263\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+H:\MOD003263\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+H:\MOD003263\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+H:\MOD003263\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.AssemblyReference.cache
+H:\MOD003263\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.SuggestedBindingRedirects.cache
+H:\MOD003263\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
+H:\MOD003263\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+H:\MOD003263\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.cache
+H:\MOD003263\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
+H:\MOD003263\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+H:\MOD003263\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
