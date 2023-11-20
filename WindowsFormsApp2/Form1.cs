@@ -50,9 +50,15 @@ namespace WindowsFormsApp2
         {
 
         }
+
+        private void softwareTypeTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 // anmdoasindioasnionafod
 // i am not stupid
 // i am stupid
 // lol
+//ffff

@@ -11,3 +11,15 @@ H:\MOD003263\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource
 H:\MOD003263\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
 H:\MOD003263\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
 H:\MOD003263\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+C:\Users\drags\Source\Repos\SE-Proj\WindowsFormsApp2\bin\Debug\Database1.mdf
+C:\Users\drags\Source\Repos\SE-Proj\WindowsFormsApp2\bin\Debug\Database1_log.ldf
+C:\Users\drags\Source\Repos\SE-Proj\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\drags\Source\Repos\SE-Proj\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+C:\Users\drags\Source\Repos\SE-Proj\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\drags\Source\Repos\SE-Proj\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.AssemblyReference.cache
+C:\Users\drags\Source\Repos\SE-Proj\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
+C:\Users\drags\Source\Repos\SE-Proj\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\drags\Source\Repos\SE-Proj\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.cache
+C:\Users\drags\Source\Repos\SE-Proj\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
+C:\Users\drags\Source\Repos\SE-Proj\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+C:\Users\drags\Source\Repos\SE-Proj\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
