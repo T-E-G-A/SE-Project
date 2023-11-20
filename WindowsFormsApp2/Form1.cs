@@ -45,8 +45,14 @@ namespace WindowsFormsApp2
                 internalProfessionalServicesCheckBox.Text = "No";
             else internalProfessionalServicesCheckBox.Text = "??";
         }
+
+        private void addressTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 // anmdoasindioasnionafod
 // i am not stupid
 // i am stupid
+// lol
