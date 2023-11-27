@@ -7,3 +7,5 @@
 *.vsidx
 /WindowsFormsApp2/bin/Debug/registerDB.mdf
 /WindowsFormsApp2/bin/Debug/registerDB_log.ldf
+/WindowsFormsApp2/registerDB_log.ldf
+/WindowsFormsApp2/registerDB.mdf
