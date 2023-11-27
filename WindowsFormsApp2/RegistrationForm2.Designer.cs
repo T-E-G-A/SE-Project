@@ -126,8 +126,9 @@
             this.buttonRegister.TabIndex = 9;
             this.buttonRegister.Text = "Register";
             this.buttonRegister.UseVisualStyleBackColor = true;
+            this.buttonRegister.Click += new System.EventHandler(this.buttonRegister_Click);
             // 
-            // LoginForm2
+            // RegistrationForm2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -142,7 +143,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "LoginForm2";
+            this.Name = "RegistrationForm2";
             this.Text = "Form2";
             this.ResumeLayout(false);
             this.PerformLayout();

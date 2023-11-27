@@ -146,220 +146,198 @@
             // idLabel
             // 
             idLabel.AutoSize = true;
-            idLabel.Location = new System.Drawing.Point(16, 31);
-            idLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            idLabel.Location = new System.Drawing.Point(12, 25);
             idLabel.Name = "idLabel";
-            idLabel.Size = new System.Drawing.Size(21, 16);
+            idLabel.Size = new System.Drawing.Size(19, 13);
             idLabel.TabIndex = 1;
             idLabel.Text = "Id:";
             // 
             // referenceNumberLabel
             // 
             referenceNumberLabel.AutoSize = true;
-            referenceNumberLabel.Location = new System.Drawing.Point(16, 63);
-            referenceNumberLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            referenceNumberLabel.Location = new System.Drawing.Point(12, 51);
             referenceNumberLabel.Name = "referenceNumberLabel";
-            referenceNumberLabel.Size = new System.Drawing.Size(118, 16);
+            referenceNumberLabel.Size = new System.Drawing.Size(95, 13);
             referenceNumberLabel.TabIndex = 3;
             referenceNumberLabel.Text = "reference Number:";
             // 
             // companyNameLabel
             // 
             companyNameLabel.AutoSize = true;
-            companyNameLabel.Location = new System.Drawing.Point(16, 95);
-            companyNameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            companyNameLabel.Location = new System.Drawing.Point(12, 77);
             companyNameLabel.Name = "companyNameLabel";
-            companyNameLabel.Size = new System.Drawing.Size(106, 16);
+            companyNameLabel.Size = new System.Drawing.Size(84, 13);
             companyNameLabel.TabIndex = 5;
             companyNameLabel.Text = "company Name:";
             // 
             // softwarenameLabel
             // 
             softwarenameLabel.AutoSize = true;
-            softwarenameLabel.Location = new System.Drawing.Point(16, 127);
-            softwarenameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            softwarenameLabel.Location = new System.Drawing.Point(12, 103);
             softwarenameLabel.Name = "softwarenameLabel";
-            softwarenameLabel.Size = new System.Drawing.Size(94, 16);
+            softwarenameLabel.Size = new System.Drawing.Size(76, 13);
             softwarenameLabel.TabIndex = 7;
             softwarenameLabel.Text = "softwarename:";
             // 
             // companyWebsiteLabel
             // 
             companyWebsiteLabel.AutoSize = true;
-            companyWebsiteLabel.Location = new System.Drawing.Point(16, 159);
-            companyWebsiteLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            companyWebsiteLabel.Location = new System.Drawing.Point(12, 129);
             companyWebsiteLabel.Name = "companyWebsiteLabel";
-            companyWebsiteLabel.Size = new System.Drawing.Size(119, 16);
+            companyWebsiteLabel.Size = new System.Drawing.Size(95, 13);
             companyWebsiteLabel.TabIndex = 9;
             companyWebsiteLabel.Text = "company Website:";
             // 
             // softwareTypeLabel
             // 
             softwareTypeLabel.AutoSize = true;
-            softwareTypeLabel.Location = new System.Drawing.Point(16, 191);
-            softwareTypeLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            softwareTypeLabel.Location = new System.Drawing.Point(12, 155);
             softwareTypeLabel.Name = "softwareTypeLabel";
-            softwareTypeLabel.Size = new System.Drawing.Size(95, 16);
+            softwareTypeLabel.Size = new System.Drawing.Size(77, 13);
             softwareTypeLabel.TabIndex = 11;
             softwareTypeLabel.Text = "software Type:";
             // 
             // descriptionLabel
             // 
             descriptionLabel.AutoSize = true;
-            descriptionLabel.Location = new System.Drawing.Point(16, 223);
-            descriptionLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            descriptionLabel.Location = new System.Drawing.Point(12, 181);
             descriptionLabel.Name = "descriptionLabel";
-            descriptionLabel.Size = new System.Drawing.Size(76, 16);
+            descriptionLabel.Size = new System.Drawing.Size(61, 13);
             descriptionLabel.TabIndex = 13;
             descriptionLabel.Text = "description:";
             // 
             // companyEstablishedLabel
             // 
             companyEstablishedLabel.AutoSize = true;
-            companyEstablishedLabel.Location = new System.Drawing.Point(16, 256);
-            companyEstablishedLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            companyEstablishedLabel.Location = new System.Drawing.Point(12, 208);
             companyEstablishedLabel.Name = "companyEstablishedLabel";
-            companyEstablishedLabel.Size = new System.Drawing.Size(140, 16);
+            companyEstablishedLabel.Size = new System.Drawing.Size(110, 13);
             companyEstablishedLabel.TabIndex = 15;
             companyEstablishedLabel.Text = "company Established:";
             // 
             // locationCountriesLabel
             // 
             locationCountriesLabel.AutoSize = true;
-            locationCountriesLabel.Location = new System.Drawing.Point(16, 287);
-            locationCountriesLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            locationCountriesLabel.Location = new System.Drawing.Point(12, 233);
             locationCountriesLabel.Name = "locationCountriesLabel";
-            locationCountriesLabel.Size = new System.Drawing.Size(116, 16);
+            locationCountriesLabel.Size = new System.Drawing.Size(94, 13);
             locationCountriesLabel.TabIndex = 17;
             locationCountriesLabel.Text = "location Countries:";
             // 
             // locationCitiesLabel
             // 
             locationCitiesLabel.AutoSize = true;
-            locationCitiesLabel.Location = new System.Drawing.Point(16, 319);
-            locationCitiesLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            locationCitiesLabel.Location = new System.Drawing.Point(12, 259);
             locationCitiesLabel.Name = "locationCitiesLabel";
-            locationCitiesLabel.Size = new System.Drawing.Size(93, 16);
+            locationCitiesLabel.Size = new System.Drawing.Size(75, 13);
             locationCitiesLabel.TabIndex = 19;
             locationCitiesLabel.Text = "location Cities:";
             // 
             // phoneNumberLabel
             // 
             phoneNumberLabel.AutoSize = true;
-            phoneNumberLabel.Location = new System.Drawing.Point(16, 351);
-            phoneNumberLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            phoneNumberLabel.Location = new System.Drawing.Point(12, 285);
             phoneNumberLabel.Name = "phoneNumberLabel";
-            phoneNumberLabel.Size = new System.Drawing.Size(99, 16);
+            phoneNumberLabel.Size = new System.Drawing.Size(80, 13);
             phoneNumberLabel.TabIndex = 21;
             phoneNumberLabel.Text = "phone Number:";
             // 
             // addressLabel
             // 
             addressLabel.AutoSize = true;
-            addressLabel.Location = new System.Drawing.Point(16, 383);
-            addressLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            addressLabel.Location = new System.Drawing.Point(12, 311);
             addressLabel.Name = "addressLabel";
-            addressLabel.Size = new System.Drawing.Size(60, 16);
+            addressLabel.Size = new System.Drawing.Size(47, 13);
             addressLabel.TabIndex = 23;
             addressLabel.Text = "address:";
             // 
             // employeeCountLabel
             // 
             employeeCountLabel.AutoSize = true;
-            employeeCountLabel.Location = new System.Drawing.Point(16, 415);
-            employeeCountLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            employeeCountLabel.Location = new System.Drawing.Point(12, 337);
             employeeCountLabel.Name = "employeeCountLabel";
-            employeeCountLabel.Size = new System.Drawing.Size(108, 16);
+            employeeCountLabel.Size = new System.Drawing.Size(86, 13);
             employeeCountLabel.TabIndex = 25;
             employeeCountLabel.Text = "employee Count:";
             // 
             // internalProfessionalServicesLabel
             // 
             internalProfessionalServicesLabel.AutoSize = true;
-            internalProfessionalServicesLabel.Location = new System.Drawing.Point(16, 449);
-            internalProfessionalServicesLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            internalProfessionalServicesLabel.Location = new System.Drawing.Point(12, 365);
             internalProfessionalServicesLabel.Name = "internalProfessionalServicesLabel";
-            internalProfessionalServicesLabel.Size = new System.Drawing.Size(187, 16);
+            internalProfessionalServicesLabel.Size = new System.Drawing.Size(148, 13);
             internalProfessionalServicesLabel.TabIndex = 27;
             internalProfessionalServicesLabel.Text = "internal Professional Services:";
             // 
             // lastDemoDateLabel
             // 
             lastDemoDateLabel.AutoSize = true;
-            lastDemoDateLabel.Location = new System.Drawing.Point(16, 485);
-            lastDemoDateLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            lastDemoDateLabel.Location = new System.Drawing.Point(12, 394);
             lastDemoDateLabel.Name = "lastDemoDateLabel";
-            lastDemoDateLabel.Size = new System.Drawing.Size(103, 16);
+            lastDemoDateLabel.Size = new System.Drawing.Size(83, 13);
             lastDemoDateLabel.TabIndex = 29;
             lastDemoDateLabel.Text = "last Demo Date:";
             // 
             // lastReviewedDateLabel
             // 
             lastReviewedDateLabel.AutoSize = true;
-            lastReviewedDateLabel.Location = new System.Drawing.Point(16, 517);
-            lastReviewedDateLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            lastReviewedDateLabel.Location = new System.Drawing.Point(12, 420);
             lastReviewedDateLabel.Name = "lastReviewedDateLabel";
-            lastReviewedDateLabel.Size = new System.Drawing.Size(127, 16);
+            lastReviewedDateLabel.Size = new System.Drawing.Size(103, 13);
             lastReviewedDateLabel.TabIndex = 31;
             lastReviewedDateLabel.Text = "last Reviewed Date:";
             // 
             // businessAreasLabel
             // 
             businessAreasLabel.AutoSize = true;
-            businessAreasLabel.Location = new System.Drawing.Point(16, 548);
-            businessAreasLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            businessAreasLabel.Location = new System.Drawing.Point(12, 445);
             businessAreasLabel.Name = "businessAreasLabel";
-            businessAreasLabel.Size = new System.Drawing.Size(103, 16);
+            businessAreasLabel.Size = new System.Drawing.Size(81, 13);
             businessAreasLabel.TabIndex = 33;
             businessAreasLabel.Text = "business Areas:";
             // 
             // modulesLabel
             // 
             modulesLabel.AutoSize = true;
-            modulesLabel.Location = new System.Drawing.Point(16, 580);
-            modulesLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            modulesLabel.Location = new System.Drawing.Point(12, 471);
             modulesLabel.Name = "modulesLabel";
-            modulesLabel.Size = new System.Drawing.Size(62, 16);
+            modulesLabel.Size = new System.Drawing.Size(49, 13);
             modulesLabel.TabIndex = 35;
             modulesLabel.Text = "modules:";
             // 
             // clientTypesLabel
             // 
             clientTypesLabel.AutoSize = true;
-            clientTypesLabel.Location = new System.Drawing.Point(16, 612);
-            clientTypesLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            clientTypesLabel.Location = new System.Drawing.Point(12, 497);
             clientTypesLabel.Name = "clientTypesLabel";
-            clientTypesLabel.Size = new System.Drawing.Size(83, 16);
+            clientTypesLabel.Size = new System.Drawing.Size(67, 13);
             clientTypesLabel.TabIndex = 37;
             clientTypesLabel.Text = "client Types:";
             // 
             // cloudTypeLabel
             // 
             cloudTypeLabel.AutoSize = true;
-            cloudTypeLabel.Location = new System.Drawing.Point(16, 646);
-            cloudTypeLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            cloudTypeLabel.Location = new System.Drawing.Point(12, 525);
             cloudTypeLabel.Name = "cloudTypeLabel";
-            cloudTypeLabel.Size = new System.Drawing.Size(78, 16);
+            cloudTypeLabel.Size = new System.Drawing.Size(63, 13);
             cloudTypeLabel.TabIndex = 39;
             cloudTypeLabel.Text = "cloud Type:";
             // 
             // additionalInformationLabel
             // 
             additionalInformationLabel.AutoSize = true;
-            additionalInformationLabel.Location = new System.Drawing.Point(16, 681);
-            additionalInformationLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            additionalInformationLabel.Location = new System.Drawing.Point(12, 553);
             additionalInformationLabel.Name = "additionalInformationLabel";
-            additionalInformationLabel.Size = new System.Drawing.Size(137, 16);
+            additionalInformationLabel.Size = new System.Drawing.Size(110, 13);
             additionalInformationLabel.TabIndex = 41;
             additionalInformationLabel.Text = "additional Information:";
             // 
             // documentAttachedLabel
             // 
             documentAttachedLabel.AutoSize = true;
-            documentAttachedLabel.Location = new System.Drawing.Point(16, 715);
-            documentAttachedLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            documentAttachedLabel.Location = new System.Drawing.Point(12, 581);
             documentAttachedLabel.Name = "documentAttachedLabel";
-            documentAttachedLabel.Size = new System.Drawing.Size(125, 16);
+            documentAttachedLabel.Size = new System.Drawing.Size(103, 13);
             documentAttachedLabel.TabIndex = 43;
             documentAttachedLabel.Text = "document Attached:";
             // 
@@ -410,7 +388,7 @@
             this.customersBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.customersBindingNavigator.Name = "customersBindingNavigator";
             this.customersBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.customersBindingNavigator.Size = new System.Drawing.Size(1924, 27);
+            this.customersBindingNavigator.Size = new System.Drawing.Size(1106, 27);
             this.customersBindingNavigator.TabIndex = 0;
             this.customersBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -420,13 +398,13 @@
             this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
             this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
             this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 24);
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(24, 24);
             this.bindingNavigatorAddNewItem.Text = "Add new";
             // 
             // bindingNavigatorCountItem
             // 
             this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(45, 24);
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(35, 24);
             this.bindingNavigatorCountItem.Text = "of {0}";
             this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
             // 
@@ -436,7 +414,7 @@
             this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
             this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
             this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(29, 24);
+            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(24, 24);
             this.bindingNavigatorDeleteItem.Text = "Delete";
             // 
             // bindingNavigatorMoveFirstItem
@@ -445,7 +423,7 @@
             this.bindingNavigatorMoveFirstItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveFirstItem.Image")));
             this.bindingNavigatorMoveFirstItem.Name = "bindingNavigatorMoveFirstItem";
             this.bindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(29, 24);
+            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(24, 24);
             this.bindingNavigatorMoveFirstItem.Text = "Move first";
             // 
             // bindingNavigatorMovePreviousItem
@@ -454,7 +432,7 @@
             this.bindingNavigatorMovePreviousItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMovePreviousItem.Image")));
             this.bindingNavigatorMovePreviousItem.Name = "bindingNavigatorMovePreviousItem";
             this.bindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(29, 24);
+            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(24, 24);
             this.bindingNavigatorMovePreviousItem.Text = "Move previous";
             // 
             // bindingNavigatorSeparator
@@ -468,7 +446,7 @@
             this.bindingNavigatorPositionItem.AutoSize = false;
             this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
-            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(65, 27);
+            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 23);
             this.bindingNavigatorPositionItem.Text = "0";
             this.bindingNavigatorPositionItem.ToolTipText = "Current position";
             // 
@@ -483,7 +461,7 @@
             this.bindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));
             this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
             this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(29, 24);
+            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(24, 24);
             this.bindingNavigatorMoveNextItem.Text = "Move next";
             // 
             // bindingNavigatorMoveLastItem
@@ -492,7 +470,7 @@
             this.bindingNavigatorMoveLastItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveLastItem.Image")));
             this.bindingNavigatorMoveLastItem.Name = "bindingNavigatorMoveLastItem";
             this.bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(29, 24);
+            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(24, 24);
             this.bindingNavigatorMoveLastItem.Text = "Move last";
             // 
             // bindingNavigatorSeparator2
@@ -505,138 +483,124 @@
             this.customersBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.customersBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("customersBindingNavigatorSaveItem.Image")));
             this.customersBindingNavigatorSaveItem.Name = "customersBindingNavigatorSaveItem";
-            this.customersBindingNavigatorSaveItem.Size = new System.Drawing.Size(29, 24);
+            this.customersBindingNavigatorSaveItem.Size = new System.Drawing.Size(24, 24);
             this.customersBindingNavigatorSaveItem.Text = "Save Data";
             this.customersBindingNavigatorSaveItem.Click += new System.EventHandler(this.customersBindingNavigatorSaveItem_Click);
             // 
             // idTextBox
             // 
             this.idTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.customersBindingSource, "Id", true));
-            this.idTextBox.Location = new System.Drawing.Point(221, 27);
-            this.idTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.idTextBox.Location = new System.Drawing.Point(166, 22);
             this.idTextBox.Name = "idTextBox";
-            this.idTextBox.Size = new System.Drawing.Size(265, 22);
+            this.idTextBox.Size = new System.Drawing.Size(200, 20);
             this.idTextBox.TabIndex = 2;
             // 
             // referenceNumberTextBox
             // 
             this.referenceNumberTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.customersBindingSource, "referenceNumber", true));
-            this.referenceNumberTextBox.Location = new System.Drawing.Point(221, 59);
-            this.referenceNumberTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.referenceNumberTextBox.Location = new System.Drawing.Point(166, 48);
             this.referenceNumberTextBox.Name = "referenceNumberTextBox";
-            this.referenceNumberTextBox.Size = new System.Drawing.Size(265, 22);
+            this.referenceNumberTextBox.Size = new System.Drawing.Size(200, 20);
             this.referenceNumberTextBox.TabIndex = 4;
             // 
             // companyNameTextBox
             // 
             this.companyNameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.customersBindingSource, "companyName", true));
-            this.companyNameTextBox.Location = new System.Drawing.Point(221, 91);
-            this.companyNameTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.companyNameTextBox.Location = new System.Drawing.Point(166, 74);
             this.companyNameTextBox.Name = "companyNameTextBox";
-            this.companyNameTextBox.Size = new System.Drawing.Size(265, 22);
+            this.companyNameTextBox.Size = new System.Drawing.Size(200, 20);
             this.companyNameTextBox.TabIndex = 6;
             // 
             // softwarenameTextBox
             // 
             this.softwarenameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.customersBindingSource, "softwarename", true));
-            this.softwarenameTextBox.Location = new System.Drawing.Point(221, 123);
-            this.softwarenameTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.softwarenameTextBox.Location = new System.Drawing.Point(166, 100);
             this.softwarenameTextBox.Name = "softwarenameTextBox";
-            this.softwarenameTextBox.Size = new System.Drawing.Size(265, 22);
+            this.softwarenameTextBox.Size = new System.Drawing.Size(200, 20);
             this.softwarenameTextBox.TabIndex = 8;
             // 
             // companyWebsiteTextBox
             // 
             this.companyWebsiteTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.customersBindingSource, "companyWebsite", true));
-            this.companyWebsiteTextBox.Location = new System.Drawing.Point(221, 155);
-            this.companyWebsiteTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.companyWebsiteTextBox.Location = new System.Drawing.Point(166, 126);
             this.companyWebsiteTextBox.Name = "companyWebsiteTextBox";
-            this.companyWebsiteTextBox.Size = new System.Drawing.Size(265, 22);
+            this.companyWebsiteTextBox.Size = new System.Drawing.Size(200, 20);
             this.companyWebsiteTextBox.TabIndex = 10;
             // 
             // softwareTypeTextBox
             // 
             this.softwareTypeTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.customersBindingSource, "softwareType", true));
-            this.softwareTypeTextBox.Location = new System.Drawing.Point(221, 187);
-            this.softwareTypeTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.softwareTypeTextBox.Location = new System.Drawing.Point(166, 152);
             this.softwareTypeTextBox.Name = "softwareTypeTextBox";
-            this.softwareTypeTextBox.Size = new System.Drawing.Size(265, 22);
+            this.softwareTypeTextBox.Size = new System.Drawing.Size(200, 20);
             this.softwareTypeTextBox.TabIndex = 12;
             this.softwareTypeTextBox.TextChanged += new System.EventHandler(this.softwareTypeTextBox_TextChanged);
             // 
             // descriptionTextBox
             // 
             this.descriptionTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.customersBindingSource, "description", true));
-            this.descriptionTextBox.Location = new System.Drawing.Point(221, 219);
-            this.descriptionTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.descriptionTextBox.Location = new System.Drawing.Point(166, 178);
             this.descriptionTextBox.Name = "descriptionTextBox";
-            this.descriptionTextBox.Size = new System.Drawing.Size(265, 22);
+            this.descriptionTextBox.Size = new System.Drawing.Size(200, 20);
             this.descriptionTextBox.TabIndex = 14;
             // 
             // companyEstablishedDateTimePicker
             // 
             this.companyEstablishedDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.customersBindingSource, "companyEstablished", true));
-            this.companyEstablishedDateTimePicker.Location = new System.Drawing.Point(221, 251);
-            this.companyEstablishedDateTimePicker.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.companyEstablishedDateTimePicker.Location = new System.Drawing.Point(166, 204);
             this.companyEstablishedDateTimePicker.Name = "companyEstablishedDateTimePicker";
-            this.companyEstablishedDateTimePicker.Size = new System.Drawing.Size(265, 22);
+            this.companyEstablishedDateTimePicker.Size = new System.Drawing.Size(200, 20);
             this.companyEstablishedDateTimePicker.TabIndex = 16;
             // 
             // locationCountriesTextBox
             // 
             this.locationCountriesTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.customersBindingSource, "locationCountries", true));
-            this.locationCountriesTextBox.Location = new System.Drawing.Point(221, 283);
-            this.locationCountriesTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.locationCountriesTextBox.Location = new System.Drawing.Point(166, 230);
             this.locationCountriesTextBox.Multiline = true;
             this.locationCountriesTextBox.Name = "locationCountriesTextBox";
             this.locationCountriesTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.locationCountriesTextBox.Size = new System.Drawing.Size(265, 24);
+            this.locationCountriesTextBox.Size = new System.Drawing.Size(200, 20);
             this.locationCountriesTextBox.TabIndex = 18;
             // 
             // locationCitiesTextBox
             // 
             this.locationCitiesTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.customersBindingSource, "locationCities", true));
-            this.locationCitiesTextBox.Location = new System.Drawing.Point(221, 315);
-            this.locationCitiesTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.locationCitiesTextBox.Location = new System.Drawing.Point(166, 256);
             this.locationCitiesTextBox.Name = "locationCitiesTextBox";
-            this.locationCitiesTextBox.Size = new System.Drawing.Size(265, 22);
+            this.locationCitiesTextBox.Size = new System.Drawing.Size(200, 20);
             this.locationCitiesTextBox.TabIndex = 20;
             // 
             // phoneNumberTextBox
             // 
             this.phoneNumberTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.customersBindingSource, "phoneNumber", true));
-            this.phoneNumberTextBox.Location = new System.Drawing.Point(221, 347);
-            this.phoneNumberTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.phoneNumberTextBox.Location = new System.Drawing.Point(166, 282);
             this.phoneNumberTextBox.Name = "phoneNumberTextBox";
-            this.phoneNumberTextBox.Size = new System.Drawing.Size(265, 22);
+            this.phoneNumberTextBox.Size = new System.Drawing.Size(200, 20);
             this.phoneNumberTextBox.TabIndex = 22;
             // 
             // addressTextBox
             // 
             this.addressTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.customersBindingSource, "address", true));
-            this.addressTextBox.Location = new System.Drawing.Point(221, 379);
-            this.addressTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.addressTextBox.Location = new System.Drawing.Point(166, 308);
             this.addressTextBox.Name = "addressTextBox";
-            this.addressTextBox.Size = new System.Drawing.Size(265, 22);
+            this.addressTextBox.Size = new System.Drawing.Size(200, 20);
             this.addressTextBox.TabIndex = 24;
             this.addressTextBox.TextChanged += new System.EventHandler(this.addressTextBox_TextChanged);
             // 
             // employeeCountTextBox
             // 
             this.employeeCountTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.customersBindingSource, "employeeCount", true));
-            this.employeeCountTextBox.Location = new System.Drawing.Point(221, 411);
-            this.employeeCountTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.employeeCountTextBox.Location = new System.Drawing.Point(166, 334);
             this.employeeCountTextBox.Name = "employeeCountTextBox";
-            this.employeeCountTextBox.Size = new System.Drawing.Size(265, 22);
+            this.employeeCountTextBox.Size = new System.Drawing.Size(200, 20);
             this.employeeCountTextBox.TabIndex = 26;
             // 
             // internalProfessionalServicesCheckBox
             // 
             this.internalProfessionalServicesCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.customersBindingSource, "internalProfessionalServices", true));
-            this.internalProfessionalServicesCheckBox.Location = new System.Drawing.Point(221, 443);
-            this.internalProfessionalServicesCheckBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.internalProfessionalServicesCheckBox.Location = new System.Drawing.Point(166, 360);
             this.internalProfessionalServicesCheckBox.Name = "internalProfessionalServicesCheckBox";
-            this.internalProfessionalServicesCheckBox.Size = new System.Drawing.Size(267, 30);
+            this.internalProfessionalServicesCheckBox.Size = new System.Drawing.Size(200, 24);
             this.internalProfessionalServicesCheckBox.TabIndex = 28;
             this.internalProfessionalServicesCheckBox.Text = "??";
             this.internalProfessionalServicesCheckBox.UseVisualStyleBackColor = true;
@@ -645,55 +609,49 @@
             // lastDemoDateDateTimePicker
             // 
             this.lastDemoDateDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.customersBindingSource, "lastDemoDate", true));
-            this.lastDemoDateDateTimePicker.Location = new System.Drawing.Point(221, 480);
-            this.lastDemoDateDateTimePicker.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lastDemoDateDateTimePicker.Location = new System.Drawing.Point(166, 390);
             this.lastDemoDateDateTimePicker.Name = "lastDemoDateDateTimePicker";
-            this.lastDemoDateDateTimePicker.Size = new System.Drawing.Size(265, 22);
+            this.lastDemoDateDateTimePicker.Size = new System.Drawing.Size(200, 20);
             this.lastDemoDateDateTimePicker.TabIndex = 30;
             // 
             // lastReviewedDateDateTimePicker
             // 
             this.lastReviewedDateDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.customersBindingSource, "lastReviewedDate", true));
-            this.lastReviewedDateDateTimePicker.Location = new System.Drawing.Point(221, 512);
-            this.lastReviewedDateDateTimePicker.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lastReviewedDateDateTimePicker.Location = new System.Drawing.Point(166, 416);
             this.lastReviewedDateDateTimePicker.Name = "lastReviewedDateDateTimePicker";
-            this.lastReviewedDateDateTimePicker.Size = new System.Drawing.Size(265, 22);
+            this.lastReviewedDateDateTimePicker.Size = new System.Drawing.Size(200, 20);
             this.lastReviewedDateDateTimePicker.TabIndex = 32;
             // 
             // businessAreasTextBox
             // 
             this.businessAreasTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.customersBindingSource, "businessAreas", true));
-            this.businessAreasTextBox.Location = new System.Drawing.Point(221, 544);
-            this.businessAreasTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.businessAreasTextBox.Location = new System.Drawing.Point(166, 442);
             this.businessAreasTextBox.Name = "businessAreasTextBox";
-            this.businessAreasTextBox.Size = new System.Drawing.Size(265, 22);
+            this.businessAreasTextBox.Size = new System.Drawing.Size(200, 20);
             this.businessAreasTextBox.TabIndex = 34;
             // 
             // modulesTextBox
             // 
             this.modulesTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.customersBindingSource, "modules", true));
-            this.modulesTextBox.Location = new System.Drawing.Point(221, 576);
-            this.modulesTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.modulesTextBox.Location = new System.Drawing.Point(166, 468);
             this.modulesTextBox.Name = "modulesTextBox";
-            this.modulesTextBox.Size = new System.Drawing.Size(265, 22);
+            this.modulesTextBox.Size = new System.Drawing.Size(200, 20);
             this.modulesTextBox.TabIndex = 36;
             // 
             // clientTypesTextBox
             // 
             this.clientTypesTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.customersBindingSource, "clientTypes", true));
-            this.clientTypesTextBox.Location = new System.Drawing.Point(221, 608);
-            this.clientTypesTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.clientTypesTextBox.Location = new System.Drawing.Point(166, 494);
             this.clientTypesTextBox.Name = "clientTypesTextBox";
-            this.clientTypesTextBox.Size = new System.Drawing.Size(265, 22);
+            this.clientTypesTextBox.Size = new System.Drawing.Size(200, 20);
             this.clientTypesTextBox.TabIndex = 38;
             // 
             // cloudTypeCheckBox
             // 
             this.cloudTypeCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.customersBindingSource, "cloudType", true));
-            this.cloudTypeCheckBox.Location = new System.Drawing.Point(221, 640);
-            this.cloudTypeCheckBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cloudTypeCheckBox.Location = new System.Drawing.Point(166, 520);
             this.cloudTypeCheckBox.Name = "cloudTypeCheckBox";
-            this.cloudTypeCheckBox.Size = new System.Drawing.Size(267, 30);
+            this.cloudTypeCheckBox.Size = new System.Drawing.Size(200, 24);
             this.cloudTypeCheckBox.TabIndex = 40;
             this.cloudTypeCheckBox.Text = "checkBox1";
             this.cloudTypeCheckBox.UseVisualStyleBackColor = true;
@@ -701,19 +659,17 @@
             // additionalInformationTextBox
             // 
             this.additionalInformationTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.customersBindingSource, "additionalInformation", true));
-            this.additionalInformationTextBox.Location = new System.Drawing.Point(221, 677);
-            this.additionalInformationTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.additionalInformationTextBox.Location = new System.Drawing.Point(166, 550);
             this.additionalInformationTextBox.Name = "additionalInformationTextBox";
-            this.additionalInformationTextBox.Size = new System.Drawing.Size(265, 22);
+            this.additionalInformationTextBox.Size = new System.Drawing.Size(200, 20);
             this.additionalInformationTextBox.TabIndex = 42;
             // 
             // documentAttachedCheckBox
             // 
             this.documentAttachedCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.customersBindingSource, "documentAttached", true));
-            this.documentAttachedCheckBox.Location = new System.Drawing.Point(221, 709);
-            this.documentAttachedCheckBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.documentAttachedCheckBox.Location = new System.Drawing.Point(166, 576);
             this.documentAttachedCheckBox.Name = "documentAttachedCheckBox";
-            this.documentAttachedCheckBox.Size = new System.Drawing.Size(267, 30);
+            this.documentAttachedCheckBox.Size = new System.Drawing.Size(200, 24);
             this.documentAttachedCheckBox.TabIndex = 44;
             this.documentAttachedCheckBox.Text = "checkBox1";
             this.documentAttachedCheckBox.UseVisualStyleBackColor = true;
@@ -746,11 +702,10 @@
             this.dataGridViewTextBoxColumn19,
             this.dataGridViewCheckBoxColumn3});
             this.customersDataGridView.DataSource = this.customersBindingSource;
-            this.customersDataGridView.Location = new System.Drawing.Point(20, 746);
-            this.customersDataGridView.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.customersDataGridView.Location = new System.Drawing.Point(15, 606);
             this.customersDataGridView.Name = "customersDataGridView";
             this.customersDataGridView.RowHeadersWidth = 20;
-            this.customersDataGridView.Size = new System.Drawing.Size(2732, 412);
+            this.customersDataGridView.Size = new System.Drawing.Size(2049, 335);
             this.customersDataGridView.TabIndex = 45;
             this.customersDataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.customersDataGridView_CellContentClick);
             // 
@@ -932,9 +887,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1924, 1055);
+            this.ClientSize = new System.Drawing.Size(1106, 732);
             this.Controls.Add(this.customersDataGridView);
             this.Controls.Add(idLabel);
             this.Controls.Add(this.idTextBox);
@@ -981,7 +936,6 @@
             this.Controls.Add(documentAttachedLabel);
             this.Controls.Add(this.documentAttachedCheckBox);
             this.Controls.Add(this.customersBindingNavigator);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "localDB";

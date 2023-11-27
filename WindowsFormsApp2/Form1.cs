@@ -55,6 +55,13 @@ namespace WindowsFormsApp2
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            RegistrationForm2 f2 = new RegistrationForm2();
+            f2.Show();
+
+        }
     }
 }
 // anmdoasindioasnionafod
