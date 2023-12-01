@@ -16,5 +16,25 @@ namespace AdminDashboard
         {
             InitializeComponent();
         }
+
+        private void tableBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.tableBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.vendorDBDataSet);
+
+        }
+
+        private void vendorAdd_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'vendorDBDataSet.Table' table. You can move, or remove it, as needed.
+            this.tableTableAdapter.Fill(this.vendorDBDataSet.Table);
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

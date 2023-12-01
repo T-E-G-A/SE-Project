@@ -120,6 +120,11 @@
     <Compile Include="vendorAdd.Designer.cs">
       <DependentUpon>vendorAdd.cs</DependentUpon>
     </Compile>
+    <Compile Include="VendorDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VendorDBDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="vendorManage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -182,6 +187,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="VendorDBDataSet.xsc">
+      <DependentUpon>VendorDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="VendorDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>VendorDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="VendorDBDataSet.xss">
+      <DependentUpon>VendorDBDataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -208,6 +224,13 @@
     <Content Include="Database21_log.ldf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Database21.mdf</DependentUpon>
+    </Content>
+    <Content Include="VendorDB.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VendorDB_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>VendorDB.mdf</DependentUpon>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
