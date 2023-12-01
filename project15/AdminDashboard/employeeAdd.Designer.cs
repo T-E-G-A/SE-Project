@@ -83,6 +83,7 @@
             // idLabel
             // 
             idLabel.AutoSize = true;
+            idLabel.ForeColor = System.Drawing.Color.White;
             idLabel.Location = new System.Drawing.Point(207, 239);
             idLabel.Name = "idLabel";
             idLabel.Size = new System.Drawing.Size(19, 13);
@@ -92,6 +93,7 @@
             // employeeIDLabel
             // 
             employeeIDLabel.AutoSize = true;
+            employeeIDLabel.ForeColor = System.Drawing.Color.White;
             employeeIDLabel.Location = new System.Drawing.Point(157, 265);
             employeeIDLabel.Name = "employeeIDLabel";
             employeeIDLabel.Size = new System.Drawing.Size(69, 13);
@@ -101,6 +103,7 @@
             // employeeFirstNameLabel
             // 
             employeeFirstNameLabel.AutoSize = true;
+            employeeFirstNameLabel.ForeColor = System.Drawing.Color.White;
             employeeFirstNameLabel.Location = new System.Drawing.Point(118, 291);
             employeeFirstNameLabel.Name = "employeeFirstNameLabel";
             employeeFirstNameLabel.Size = new System.Drawing.Size(108, 13);
@@ -110,6 +113,7 @@
             // employeeLastNameLabel
             // 
             employeeLastNameLabel.AutoSize = true;
+            employeeLastNameLabel.ForeColor = System.Drawing.Color.White;
             employeeLastNameLabel.Location = new System.Drawing.Point(117, 317);
             employeeLastNameLabel.Name = "employeeLastNameLabel";
             employeeLastNameLabel.Size = new System.Drawing.Size(109, 13);
@@ -119,6 +123,7 @@
             // dateOfBirthLabel
             // 
             dateOfBirthLabel.AutoSize = true;
+            dateOfBirthLabel.ForeColor = System.Drawing.Color.White;
             dateOfBirthLabel.Location = new System.Drawing.Point(157, 370);
             dateOfBirthLabel.Name = "dateOfBirthLabel";
             dateOfBirthLabel.Size = new System.Drawing.Size(69, 13);
@@ -128,6 +133,7 @@
             // roleLabel
             // 
             roleLabel.AutoSize = true;
+            roleLabel.ForeColor = System.Drawing.Color.White;
             roleLabel.Location = new System.Drawing.Point(199, 343);
             roleLabel.Name = "roleLabel";
             roleLabel.Size = new System.Drawing.Size(27, 13);
@@ -399,6 +405,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(21)))));
             this.ClientSize = new System.Drawing.Size(1336, 633);
             this.Controls.Add(this.button1);
             this.Controls.Add(roleLabel);

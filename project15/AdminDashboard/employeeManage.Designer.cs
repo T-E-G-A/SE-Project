@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(employeeManage));
             System.Windows.Forms.Label idLabel;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(employeeManage));
             this.database21DataSet = new AdminDashboard.Database21DataSet();
             this.tableBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tableTableAdapter = new AdminDashboard.Database21DataSetTableAdapters.TableTableAdapter();
@@ -67,6 +67,16 @@
             this.tableBindingNavigator.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tableDataGridView)).BeginInit();
             this.SuspendLayout();
+            // 
+            // idLabel
+            // 
+            idLabel.AutoSize = true;
+            idLabel.ForeColor = System.Drawing.Color.White;
+            idLabel.Location = new System.Drawing.Point(269, 190);
+            idLabel.Name = "idLabel";
+            idLabel.Size = new System.Drawing.Size(19, 13);
+            idLabel.TabIndex = 5;
+            idLabel.Text = "Id:";
             // 
             // database21DataSet
             // 
@@ -170,6 +180,7 @@
             // 
             this.bindingNavigatorPositionItem.AccessibleName = "Position";
             this.bindingNavigatorPositionItem.AutoSize = false;
+            this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
             this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 23);
             this.bindingNavigatorPositionItem.Text = "0";
@@ -273,15 +284,6 @@
             this.idTextBox.Size = new System.Drawing.Size(100, 20);
             this.idTextBox.TabIndex = 4;
             // 
-            // idLabel
-            // 
-            idLabel.AutoSize = true;
-            idLabel.Location = new System.Drawing.Point(269, 190);
-            idLabel.Name = "idLabel";
-            idLabel.Size = new System.Drawing.Size(19, 13);
-            idLabel.TabIndex = 5;
-            idLabel.Text = "Id:";
-            // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.White;
@@ -347,6 +349,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(21)))));
             this.ClientSize = new System.Drawing.Size(1336, 633);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
