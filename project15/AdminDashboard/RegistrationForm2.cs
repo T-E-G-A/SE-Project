@@ -38,8 +38,25 @@ namespace WindowsFormsApp2
 
         }
 
-        private void buttonRegister_Click(object sender, EventArgs e)
+        private async void buttonRegister_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrEmpty(userName.Text))
+            {
+                MessageBox.Show("Enter Username", "Message", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                userName.Focus();
+                return;
+            }
+            if (passWord.Text != confirmPassword.Text)
+            {
+                MessageBox.Show("Passwords don't match", "Message", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            IregisterRepo repo = new registerRepo();
+            bool result = await repo.Insert(new Reg() { Username = userName.Text, Password = passWord.Text, Email = eMail.Text });
+            if (result)
+                MessageBox.Show("Registration Successful", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            else
+                MessageBox.Show("Registration Failed, Please try again", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
             mainForm f1 = new mainForm();
             f1.Show();
         }

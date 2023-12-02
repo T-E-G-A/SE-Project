@@ -48,7 +48,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Dapper, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.2.1.24\lib\net461\Dapper.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Design" />
     <Reference Include="System.Management" />
@@ -65,6 +69,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppHelper.cs" />
     <Compile Include="Database21DataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -76,6 +81,7 @@
     <Compile Include="employeeManage.Designer.cs">
       <DependentUpon>employeeManage.cs</DependentUpon>
     </Compile>
+    <Compile Include="IregisterRepo.cs" />
     <Compile Include="mainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,6 +96,13 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reg.cs" />
+    <Compile Include="RegDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RegDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="registerRepo.cs" />
     <Compile Include="RegistrationForm2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -154,6 +167,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="RegistrationForm2.resx">
       <DependentUpon>RegistrationForm2.cs</DependentUpon>
@@ -187,6 +201,7 @@
     <None Include="Database21DataSet.xss">
       <DependentUpon>Database21DataSet.xsd</DependentUpon>
     </None>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -196,6 +211,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="RegDBDataSet.xsc">
+      <DependentUpon>RegDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="RegDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RegDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RegDBDataSet.xss">
+      <DependentUpon>RegDBDataSet.xsd</DependentUpon>
+    </None>
     <None Include="VendorDBDataSet.xsc">
       <DependentUpon>VendorDBDataSet.xsd</DependentUpon>
     </None>
@@ -233,6 +259,13 @@
     <Content Include="Database21_log.ldf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Database21.mdf</DependentUpon>
+    </Content>
+    <Content Include="RegDB.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RegDB_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>RegDB.mdf</DependentUpon>
     </Content>
     <Content Include="VendorDB.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
