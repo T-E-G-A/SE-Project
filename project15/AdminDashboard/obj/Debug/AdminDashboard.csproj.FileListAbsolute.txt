@@ -61,6 +61,7 @@ C:\Users\drags\Source\Repos\SE-PJ\project15\AdminDashboard\bin\Debug\AdminDashbo
 C:\Users\drags\Source\Repos\SE-PJ\project15\AdminDashboard\bin\Debug\AdminDashboard.exe
 C:\Users\drags\Source\Repos\SE-PJ\project15\AdminDashboard\bin\Debug\AdminDashboard.pdb
 C:\Users\drags\Source\Repos\SE-PJ\project15\AdminDashboard\obj\Debug\WindowsFormsApp2.RegistrationForm2.resources
+<<<<<<< HEAD
 C:\Users\drags\Source\Repos\SE-PJ5\project15\AdminDashboard\bin\Debug\Database21.mdf
 C:\Users\drags\Source\Repos\SE-PJ5\project15\AdminDashboard\bin\Debug\Database21_log.ldf
 C:\Users\drags\Source\Repos\SE-PJ5\project15\AdminDashboard\bin\Debug\RegDB.mdf
@@ -89,3 +90,29 @@ C:\Users\drags\Source\Repos\SE-PJ5\project15\AdminDashboard\obj\Debug\AdminDashb
 C:\Users\drags\Source\Repos\SE-PJ5\project15\AdminDashboard\bin\Debug\Dapper.dll
 C:\Users\drags\Source\Repos\SE-PJ5\project15\AdminDashboard\bin\Debug\Dapper.xml
 C:\Users\drags\Source\Repos\SE-PJ5\project15\AdminDashboard\obj\Debug\AdminDashboard.csproj.CopyComplete
+=======
+C:\Users\tadas\Source\Repos\SE-Project34e\project15\AdminDashboard\bin\Debug\Database21.mdf
+C:\Users\tadas\Source\Repos\SE-Project34e\project15\AdminDashboard\bin\Debug\Database21_log.ldf
+C:\Users\tadas\Source\Repos\SE-Project34e\project15\AdminDashboard\bin\Debug\VendorDB.mdf
+C:\Users\tadas\Source\Repos\SE-Project34e\project15\AdminDashboard\bin\Debug\VendorDB_log.ldf
+C:\Users\tadas\Source\Repos\SE-Project34e\project15\AdminDashboard\bin\Debug\AdminDashboard.exe.config
+C:\Users\tadas\Source\Repos\SE-Project34e\project15\AdminDashboard\bin\Debug\AdminDashboard.exe
+C:\Users\tadas\Source\Repos\SE-Project34e\project15\AdminDashboard\bin\Debug\AdminDashboard.pdb
+C:\Users\tadas\Source\Repos\SE-Project34e\project15\AdminDashboard\obj\Debug\AdminDashboard.csproj.AssemblyReference.cache
+C:\Users\tadas\Source\Repos\SE-Project34e\project15\AdminDashboard\obj\Debug\AdminDashboard.csproj.SuggestedBindingRedirects.cache
+C:\Users\tadas\Source\Repos\SE-Project34e\project15\AdminDashboard\obj\Debug\AdminDashboard.employeeManage.resources
+C:\Users\tadas\Source\Repos\SE-Project34e\project15\AdminDashboard\obj\Debug\AdminDashboard.mainForm.resources
+C:\Users\tadas\Source\Repos\SE-Project34e\project15\AdminDashboard\obj\Debug\AdminDashboard.employeeAdd.resources
+C:\Users\tadas\Source\Repos\SE-Project34e\project15\AdminDashboard\obj\Debug\AdminDashboard.Properties.Resources.resources
+C:\Users\tadas\Source\Repos\SE-Project34e\project15\AdminDashboard\obj\Debug\WindowsFormsApp2.RegistrationForm2.resources
+C:\Users\tadas\Source\Repos\SE-Project34e\project15\AdminDashboard\obj\Debug\AdminDashboard.UserControls.ucEmployees.resources
+C:\Users\tadas\Source\Repos\SE-Project34e\project15\AdminDashboard\obj\Debug\AdminDashboard.UserControls.ucOverview.resources
+C:\Users\tadas\Source\Repos\SE-Project34e\project15\AdminDashboard\obj\Debug\AdminDashboard.UserControls.ucLogout.resources
+C:\Users\tadas\Source\Repos\SE-Project34e\project15\AdminDashboard\obj\Debug\AdminDashboard.UserControls.ucVendors.resources
+C:\Users\tadas\Source\Repos\SE-Project34e\project15\AdminDashboard\obj\Debug\AdminDashboard.vendorAdd.resources
+C:\Users\tadas\Source\Repos\SE-Project34e\project15\AdminDashboard\obj\Debug\AdminDashboard.vendorManage.resources
+C:\Users\tadas\Source\Repos\SE-Project34e\project15\AdminDashboard\obj\Debug\AdminDashboard.csproj.GenerateResource.cache
+C:\Users\tadas\Source\Repos\SE-Project34e\project15\AdminDashboard\obj\Debug\AdminDashboard.csproj.CoreCompileInputs.cache
+C:\Users\tadas\Source\Repos\SE-Project34e\project15\AdminDashboard\obj\Debug\AdminDashboard.exe
+C:\Users\tadas\Source\Repos\SE-Project34e\project15\AdminDashboard\obj\Debug\AdminDashboard.pdb
+>>>>>>> 95f0d3380556a0aceca1bbb93c1aa47684025afd

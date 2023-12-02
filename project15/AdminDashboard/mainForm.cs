@@ -21,8 +21,8 @@ namespace AdminDashboard
             ucOverview uc = new ucOverview();
             addUserControl(uc);
         }
-        // saw this online somewhere not sure how it is working in the program right now, i dont think it is
-        SqlConnection connection = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\tadas\\source\repos\\ADMINDASDHASDHA\\AdminDashboard\\Database21.mdf;Integrated Security=True");
+       
+        
 
         private void addUserControl(UserControl userControl)
         {
