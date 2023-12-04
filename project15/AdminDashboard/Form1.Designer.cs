@@ -31,6 +31,9 @@
             this.components = new System.ComponentModel.Container();
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.txtPhoneNumber = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.consultBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.consultantDBDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.consultantDBDataSet = new AdminDashboard.ConsultantDBDataSet();
             this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel4 = new MaterialSkin.Controls.MaterialLabel();
@@ -41,33 +44,31 @@
             this.txtSearch = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.btnSave = new MaterialSkin.Controls.MaterialFlatButton();
             this.dataGridView = new System.Windows.Forms.DataGridView();
-            this.btnCancel = new MaterialSkin.Controls.MaterialFlatButton();
-            this.btnEdit = new MaterialSkin.Controls.MaterialFlatButton();
-            this.btnNew = new MaterialSkin.Controls.MaterialFlatButton();
-            this.consultBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.phoneNumberDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.fullNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.emailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.addressDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.consultantDBDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.consultantDBDataSet = new AdminDashboard.ConsultantDBDataSet();
+            this.btnCancel = new MaterialSkin.Controls.MaterialFlatButton();
+            this.btnEdit = new MaterialSkin.Controls.MaterialFlatButton();
+            this.btnNew = new MaterialSkin.Controls.MaterialFlatButton();
             this.consultTableAdapter = new AdminDashboard.ConsultantDBDataSetTableAdapters.ConsultTableAdapter();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.consultBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.consultantDBDataSetBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.consultantDBDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // materialLabel1
             // 
             this.materialLabel1.AutoSize = true;
             this.materialLabel1.Depth = 0;
-            this.materialLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.materialLabel1.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel1.Location = new System.Drawing.Point(68, 114);
+            this.materialLabel1.Location = new System.Drawing.Point(51, 93);
+            this.materialLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
-            this.materialLabel1.Size = new System.Drawing.Size(145, 24);
+            this.materialLabel1.Size = new System.Drawing.Size(112, 19);
             this.materialLabel1.TabIndex = 0;
             this.materialLabel1.Text = "Phone Number:";
             this.materialLabel1.Click += new System.EventHandler(this.materialLabel1_Click);
@@ -77,27 +78,44 @@
             this.txtPhoneNumber.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.consultBindingSource, "PhoneNumber", true));
             this.txtPhoneNumber.Depth = 0;
             this.txtPhoneNumber.Hint = "";
-            this.txtPhoneNumber.Location = new System.Drawing.Point(272, 110);
+            this.txtPhoneNumber.Location = new System.Drawing.Point(204, 89);
+            this.txtPhoneNumber.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtPhoneNumber.MouseState = MaterialSkin.MouseState.HOVER;
             this.txtPhoneNumber.Name = "txtPhoneNumber";
             this.txtPhoneNumber.PasswordChar = '\0';
             this.txtPhoneNumber.SelectedText = "";
             this.txtPhoneNumber.SelectionLength = 0;
             this.txtPhoneNumber.SelectionStart = 0;
-            this.txtPhoneNumber.Size = new System.Drawing.Size(269, 28);
+            this.txtPhoneNumber.Size = new System.Drawing.Size(202, 23);
             this.txtPhoneNumber.TabIndex = 1;
             this.txtPhoneNumber.UseSystemPasswordChar = false;
+            // 
+            // consultBindingSource
+            // 
+            this.consultBindingSource.DataMember = "Consult";
+            this.consultBindingSource.DataSource = this.consultantDBDataSetBindingSource;
+            // 
+            // consultantDBDataSetBindingSource
+            // 
+            this.consultantDBDataSetBindingSource.DataSource = this.consultantDBDataSet;
+            this.consultantDBDataSetBindingSource.Position = 0;
+            // 
+            // consultantDBDataSet
+            // 
+            this.consultantDBDataSet.DataSetName = "ConsultantDBDataSet";
+            this.consultantDBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // materialLabel2
             // 
             this.materialLabel2.AutoSize = true;
             this.materialLabel2.Depth = 0;
-            this.materialLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.materialLabel2.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel2.Location = new System.Drawing.Point(68, 153);
+            this.materialLabel2.Location = new System.Drawing.Point(51, 124);
+            this.materialLabel2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel2.Name = "materialLabel2";
-            this.materialLabel2.Size = new System.Drawing.Size(99, 24);
+            this.materialLabel2.Size = new System.Drawing.Size(78, 19);
             this.materialLabel2.TabIndex = 2;
             this.materialLabel2.Text = "Full name:";
             this.materialLabel2.Click += new System.EventHandler(this.materialLabel2_Click);
@@ -106,12 +124,13 @@
             // 
             this.materialLabel3.AutoSize = true;
             this.materialLabel3.Depth = 0;
-            this.materialLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.materialLabel3.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel3.Location = new System.Drawing.Point(68, 193);
+            this.materialLabel3.Location = new System.Drawing.Point(51, 157);
+            this.materialLabel3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel3.Name = "materialLabel3";
-            this.materialLabel3.Size = new System.Drawing.Size(57, 24);
+            this.materialLabel3.Size = new System.Drawing.Size(47, 19);
             this.materialLabel3.TabIndex = 3;
             this.materialLabel3.Text = "Email";
             this.materialLabel3.Click += new System.EventHandler(this.materialLabel3_Click);
@@ -120,12 +139,13 @@
             // 
             this.materialLabel4.AutoSize = true;
             this.materialLabel4.Depth = 0;
-            this.materialLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.materialLabel4.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel4.Location = new System.Drawing.Point(68, 231);
+            this.materialLabel4.Location = new System.Drawing.Point(51, 188);
+            this.materialLabel4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel4.Name = "materialLabel4";
-            this.materialLabel4.Size = new System.Drawing.Size(80, 24);
+            this.materialLabel4.Size = new System.Drawing.Size(64, 19);
             this.materialLabel4.TabIndex = 4;
             this.materialLabel4.Text = "Address";
             // 
@@ -133,12 +153,13 @@
             // 
             this.materialLabel5.AutoSize = true;
             this.materialLabel5.Depth = 0;
-            this.materialLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.materialLabel5.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel5.Location = new System.Drawing.Point(68, 276);
+            this.materialLabel5.Location = new System.Drawing.Point(51, 224);
+            this.materialLabel5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.materialLabel5.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel5.Name = "materialLabel5";
-            this.materialLabel5.Size = new System.Drawing.Size(70, 24);
+            this.materialLabel5.Size = new System.Drawing.Size(55, 19);
             this.materialLabel5.TabIndex = 5;
             this.materialLabel5.Text = "Search";
             // 
@@ -147,14 +168,15 @@
             this.txtFullName.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.consultBindingSource, "FullName", true));
             this.txtFullName.Depth = 0;
             this.txtFullName.Hint = "";
-            this.txtFullName.Location = new System.Drawing.Point(272, 153);
+            this.txtFullName.Location = new System.Drawing.Point(204, 124);
+            this.txtFullName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtFullName.MouseState = MaterialSkin.MouseState.HOVER;
             this.txtFullName.Name = "txtFullName";
             this.txtFullName.PasswordChar = '\0';
             this.txtFullName.SelectedText = "";
             this.txtFullName.SelectionLength = 0;
             this.txtFullName.SelectionStart = 0;
-            this.txtFullName.Size = new System.Drawing.Size(269, 28);
+            this.txtFullName.Size = new System.Drawing.Size(202, 23);
             this.txtFullName.TabIndex = 6;
             this.txtFullName.UseSystemPasswordChar = false;
             this.txtFullName.Click += new System.EventHandler(this.materialSingleLineTextField2_Click);
@@ -164,14 +186,15 @@
             this.txtEmail.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.consultBindingSource, "Email", true));
             this.txtEmail.Depth = 0;
             this.txtEmail.Hint = "";
-            this.txtEmail.Location = new System.Drawing.Point(272, 193);
+            this.txtEmail.Location = new System.Drawing.Point(204, 157);
+            this.txtEmail.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtEmail.MouseState = MaterialSkin.MouseState.HOVER;
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.PasswordChar = '\0';
             this.txtEmail.SelectedText = "";
             this.txtEmail.SelectionLength = 0;
             this.txtEmail.SelectionStart = 0;
-            this.txtEmail.Size = new System.Drawing.Size(269, 28);
+            this.txtEmail.Size = new System.Drawing.Size(202, 23);
             this.txtEmail.TabIndex = 7;
             this.txtEmail.UseSystemPasswordChar = false;
             // 
@@ -180,14 +203,15 @@
             this.txtAddress.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.consultBindingSource, "Address", true));
             this.txtAddress.Depth = 0;
             this.txtAddress.Hint = "";
-            this.txtAddress.Location = new System.Drawing.Point(272, 231);
+            this.txtAddress.Location = new System.Drawing.Point(204, 188);
+            this.txtAddress.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtAddress.MouseState = MaterialSkin.MouseState.HOVER;
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.PasswordChar = '\0';
             this.txtAddress.SelectedText = "";
             this.txtAddress.SelectionLength = 0;
             this.txtAddress.SelectionStart = 0;
-            this.txtAddress.Size = new System.Drawing.Size(269, 28);
+            this.txtAddress.Size = new System.Drawing.Size(202, 23);
             this.txtAddress.TabIndex = 8;
             this.txtAddress.UseSystemPasswordChar = false;
             // 
@@ -195,14 +219,15 @@
             // 
             this.txtSearch.Depth = 0;
             this.txtSearch.Hint = "";
-            this.txtSearch.Location = new System.Drawing.Point(272, 276);
+            this.txtSearch.Location = new System.Drawing.Point(204, 224);
+            this.txtSearch.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtSearch.MouseState = MaterialSkin.MouseState.HOVER;
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.PasswordChar = '\0';
             this.txtSearch.SelectedText = "";
             this.txtSearch.SelectionLength = 0;
             this.txtSearch.SelectionStart = 0;
-            this.txtSearch.Size = new System.Drawing.Size(269, 28);
+            this.txtSearch.Size = new System.Drawing.Size(202, 23);
             this.txtSearch.TabIndex = 9;
             this.txtSearch.UseSystemPasswordChar = false;
             this.txtSearch.Click += new System.EventHandler(this.materialSingleLineTextField5_Click);
@@ -212,12 +237,12 @@
             this.btnSave.AutoSize = true;
             this.btnSave.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btnSave.Depth = 0;
-            this.btnSave.Location = new System.Drawing.Point(710, 535);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btnSave.Location = new System.Drawing.Point(552, 435);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.btnSave.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnSave.Name = "btnSave";
             this.btnSave.Primary = false;
-            this.btnSave.Size = new System.Drawing.Size(56, 36);
+            this.btnSave.Size = new System.Drawing.Size(46, 36);
             this.btnSave.TabIndex = 10;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
@@ -233,64 +258,14 @@
             this.emailDataGridViewTextBoxColumn,
             this.addressDataGridViewTextBoxColumn});
             this.dataGridView.DataSource = this.consultBindingSource;
-            this.dataGridView.Location = new System.Drawing.Point(72, 319);
+            this.dataGridView.Location = new System.Drawing.Point(22, 271);
+            this.dataGridView.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView.Name = "dataGridView";
             this.dataGridView.RowHeadersWidth = 51;
             this.dataGridView.RowTemplate.Height = 24;
-            this.dataGridView.Size = new System.Drawing.Size(694, 193);
+            this.dataGridView.Size = new System.Drawing.Size(621, 157);
             this.dataGridView.TabIndex = 11;
             this.dataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_CellContentClick);
-            // 
-            // btnCancel
-            // 
-            this.btnCancel.AutoSize = true;
-            this.btnCancel.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btnCancel.Depth = 0;
-            this.btnCancel.Location = new System.Drawing.Point(617, 535);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.btnCancel.MouseState = MaterialSkin.MouseState.HOVER;
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Primary = false;
-            this.btnCancel.Size = new System.Drawing.Size(78, 36);
-            this.btnCancel.TabIndex = 12;
-            this.btnCancel.Text = "Cancel";
-            this.btnCancel.UseVisualStyleBackColor = true;
-            // 
-            // btnEdit
-            // 
-            this.btnEdit.AutoSize = true;
-            this.btnEdit.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btnEdit.Depth = 0;
-            this.btnEdit.Location = new System.Drawing.Point(560, 535);
-            this.btnEdit.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.btnEdit.MouseState = MaterialSkin.MouseState.HOVER;
-            this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Primary = false;
-            this.btnEdit.Size = new System.Drawing.Size(49, 36);
-            this.btnEdit.TabIndex = 13;
-            this.btnEdit.Text = "Edit";
-            this.btnEdit.UseVisualStyleBackColor = true;
-            // 
-            // btnNew
-            // 
-            this.btnNew.AutoSize = true;
-            this.btnNew.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btnNew.Depth = 0;
-            this.btnNew.Location = new System.Drawing.Point(502, 535);
-            this.btnNew.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.btnNew.MouseState = MaterialSkin.MouseState.HOVER;
-            this.btnNew.Name = "btnNew";
-            this.btnNew.Primary = false;
-            this.btnNew.Size = new System.Drawing.Size(50, 36);
-            this.btnNew.TabIndex = 14;
-            this.btnNew.Text = "New";
-            this.btnNew.UseVisualStyleBackColor = true;
-            this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
-            // 
-            // consultBindingSource
-            // 
-            this.consultBindingSource.DataMember = "Consult";
-            this.consultBindingSource.DataSource = this.consultantDBDataSetBindingSource;
             // 
             // phoneNumberDataGridViewTextBoxColumn
             // 
@@ -324,15 +299,51 @@
             this.addressDataGridViewTextBoxColumn.Name = "addressDataGridViewTextBoxColumn";
             this.addressDataGridViewTextBoxColumn.Width = 150;
             // 
-            // consultantDBDataSetBindingSource
+            // btnCancel
             // 
-            this.consultantDBDataSetBindingSource.DataSource = this.consultantDBDataSet;
-            this.consultantDBDataSetBindingSource.Position = 0;
+            this.btnCancel.AutoSize = true;
+            this.btnCancel.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnCancel.Depth = 0;
+            this.btnCancel.Location = new System.Drawing.Point(482, 435);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.btnCancel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Primary = false;
+            this.btnCancel.Size = new System.Drawing.Size(64, 36);
+            this.btnCancel.TabIndex = 12;
+            this.btnCancel.Text = "Cancel";
+            this.btnCancel.UseVisualStyleBackColor = true;
             // 
-            // consultantDBDataSet
+            // btnEdit
             // 
-            this.consultantDBDataSet.DataSetName = "ConsultantDBDataSet";
-            this.consultantDBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this.btnEdit.AutoSize = true;
+            this.btnEdit.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnEdit.Depth = 0;
+            this.btnEdit.Location = new System.Drawing.Point(435, 435);
+            this.btnEdit.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.btnEdit.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnEdit.Name = "btnEdit";
+            this.btnEdit.Primary = false;
+            this.btnEdit.Size = new System.Drawing.Size(41, 36);
+            this.btnEdit.TabIndex = 13;
+            this.btnEdit.Text = "Edit";
+            this.btnEdit.UseVisualStyleBackColor = true;
+            // 
+            // btnNew
+            // 
+            this.btnNew.AutoSize = true;
+            this.btnNew.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnNew.Depth = 0;
+            this.btnNew.Location = new System.Drawing.Point(387, 435);
+            this.btnNew.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.btnNew.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnNew.Name = "btnNew";
+            this.btnNew.Primary = false;
+            this.btnNew.Size = new System.Drawing.Size(42, 36);
+            this.btnNew.TabIndex = 14;
+            this.btnNew.Text = "New";
+            this.btnNew.UseVisualStyleBackColor = true;
+            this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
             // 
             // consultTableAdapter
             // 
@@ -340,9 +351,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(850, 586);
+            this.ClientSize = new System.Drawing.Size(668, 510);
             this.Controls.Add(this.btnNew);
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.btnCancel);
@@ -358,13 +369,14 @@
             this.Controls.Add(this.materialLabel2);
             this.Controls.Add(this.txtPhoneNumber);
             this.Controls.Add(this.materialLabel1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Consultant Page";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.consultBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.consultantDBDataSetBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.consultantDBDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
