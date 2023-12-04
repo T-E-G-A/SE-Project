@@ -24,8 +24,8 @@ namespace AdminDashboard.UserControls
 
         private void button1_Click(object sender, EventArgs e)
         {
-            // code to logout
-            Application.Exit();
+            // code restarts application, prompting user to register/sign in again
+            Application.Restart();
         }
     }
 }
