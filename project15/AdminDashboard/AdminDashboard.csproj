@@ -51,6 +51,9 @@
     <Reference Include="Dapper, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Dapper.2.1.24\lib\net461\Dapper.dll</HintPath>
     </Reference>
+    <Reference Include="MaterialSkin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialSkin.0.2.1\lib\MaterialSkin.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -70,6 +73,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppHelper.cs" />
+    <Compile Include="ConsultantDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ConsultantDBDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Database21DataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -80,6 +88,12 @@
     </Compile>
     <Compile Include="employeeManage.Designer.cs">
       <DependentUpon>employeeManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="IregisterRepo.cs" />
     <Compile Include="mainForm.cs">
@@ -153,6 +167,9 @@
     <EmbeddedResource Include="employeeManage.resx">
       <DependentUpon>employeeManage.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="mainForm.resx">
       <DependentUpon>mainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -190,6 +207,17 @@
     <EmbeddedResource Include="vendorManage.resx">
       <DependentUpon>vendorManage.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="ConsultantDBDataSet.xsc">
+      <DependentUpon>ConsultantDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ConsultantDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ConsultantDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ConsultantDBDataSet.xss">
+      <DependentUpon>ConsultantDBDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Database21DataSet.xsc">
       <DependentUpon>Database21DataSet.xsd</DependentUpon>
     </None>
@@ -253,6 +281,13 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ConsultantDB.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ConsultantDB_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>ConsultantDB.mdf</DependentUpon>
+    </Content>
     <Content Include="Database21.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
