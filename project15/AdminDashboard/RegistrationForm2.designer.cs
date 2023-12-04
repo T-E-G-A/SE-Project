@@ -44,10 +44,9 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(401, 60);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(301, 49);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(255, 52);
+            this.label1.Size = new System.Drawing.Size(203, 39);
             this.label1.TabIndex = 0;
             this.label1.Text = "Registration";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -55,10 +54,9 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(313, 287);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(235, 233);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(70, 16);
+            this.label2.Size = new System.Drawing.Size(55, 13);
             this.label2.TabIndex = 1;
             this.label2.Text = "Username";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -66,20 +64,18 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(313, 320);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(235, 289);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(67, 16);
+            this.label3.Size = new System.Drawing.Size(53, 13);
             this.label3.TabIndex = 2;
             this.label3.Text = "Password";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(313, 356);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(246, 267);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(45, 16);
+            this.label4.Size = new System.Drawing.Size(35, 13);
             this.label4.TabIndex = 3;
             this.label4.Text = "E-mail";
             this.label4.Click += new System.EventHandler(this.label4_Click);
@@ -87,54 +83,48 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(267, 388);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(200, 315);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(114, 16);
+            this.label5.Size = new System.Drawing.Size(90, 13);
             this.label5.TabIndex = 4;
             this.label5.Text = "Confirm password";
             // 
             // userName
             // 
-            this.userName.Location = new System.Drawing.Point(395, 283);
-            this.userName.Margin = new System.Windows.Forms.Padding(4);
+            this.userName.Location = new System.Drawing.Point(296, 230);
             this.userName.Name = "userName";
-            this.userName.Size = new System.Drawing.Size(132, 22);
+            this.userName.Size = new System.Drawing.Size(100, 20);
             this.userName.TabIndex = 5;
             // 
             // passWord
             // 
-            this.passWord.Location = new System.Drawing.Point(395, 316);
-            this.passWord.Margin = new System.Windows.Forms.Padding(4);
+            this.passWord.Location = new System.Drawing.Point(296, 286);
             this.passWord.Name = "passWord";
             this.passWord.PasswordChar = '*';
-            this.passWord.Size = new System.Drawing.Size(132, 22);
+            this.passWord.Size = new System.Drawing.Size(100, 20);
             this.passWord.TabIndex = 6;
             // 
             // eMail
             // 
-            this.eMail.Location = new System.Drawing.Point(395, 348);
-            this.eMail.Margin = new System.Windows.Forms.Padding(4);
+            this.eMail.Location = new System.Drawing.Point(296, 260);
             this.eMail.Name = "eMail";
-            this.eMail.Size = new System.Drawing.Size(132, 22);
+            this.eMail.Size = new System.Drawing.Size(100, 20);
             this.eMail.TabIndex = 7;
             this.eMail.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // confirmPassword
             // 
-            this.confirmPassword.Location = new System.Drawing.Point(395, 384);
-            this.confirmPassword.Margin = new System.Windows.Forms.Padding(4);
+            this.confirmPassword.Location = new System.Drawing.Point(296, 312);
             this.confirmPassword.Name = "confirmPassword";
             this.confirmPassword.PasswordChar = '*';
-            this.confirmPassword.Size = new System.Drawing.Size(132, 22);
+            this.confirmPassword.Size = new System.Drawing.Size(100, 20);
             this.confirmPassword.TabIndex = 8;
             // 
             // buttonRegister
             // 
-            this.buttonRegister.Location = new System.Drawing.Point(411, 428);
-            this.buttonRegister.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonRegister.Location = new System.Drawing.Point(308, 348);
             this.buttonRegister.Name = "buttonRegister";
-            this.buttonRegister.Size = new System.Drawing.Size(100, 28);
+            this.buttonRegister.Size = new System.Drawing.Size(75, 23);
             this.buttonRegister.TabIndex = 9;
             this.buttonRegister.Text = "Register";
             this.buttonRegister.UseVisualStyleBackColor = true;
@@ -142,9 +132,9 @@
             // 
             // RegistrationForm2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.buttonRegister);
             this.Controls.Add(this.confirmPassword);
             this.Controls.Add(this.eMail);
@@ -155,7 +145,6 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "RegistrationForm2";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.RegistrationForm2_Load);
