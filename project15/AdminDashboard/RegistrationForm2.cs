@@ -59,6 +59,7 @@ namespace WindowsFormsApp2
                 MessageBox.Show("Registration Failed, Please try again", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
             mainForm f1 = new mainForm();
             f1.Show();
+            this.Hide();
         }
 
         private void RegistrationForm2_Load(object sender, EventArgs e)
