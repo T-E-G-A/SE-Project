@@ -79,7 +79,7 @@
             this.txtPhoneNumber.Depth = 0;
             this.txtPhoneNumber.Hint = "";
             this.txtPhoneNumber.Location = new System.Drawing.Point(204, 89);
-            this.txtPhoneNumber.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPhoneNumber.Margin = new System.Windows.Forms.Padding(2);
             this.txtPhoneNumber.MouseState = MaterialSkin.MouseState.HOVER;
             this.txtPhoneNumber.Name = "txtPhoneNumber";
             this.txtPhoneNumber.PasswordChar = '\0';
@@ -87,7 +87,7 @@
             this.txtPhoneNumber.SelectionLength = 0;
             this.txtPhoneNumber.SelectionStart = 0;
             this.txtPhoneNumber.Size = new System.Drawing.Size(202, 23);
-            this.txtPhoneNumber.TabIndex = 1;
+            this.txtPhoneNumber.TabIndex = 0;
             this.txtPhoneNumber.UseSystemPasswordChar = false;
             // 
             // consultBindingSource
@@ -169,7 +169,7 @@
             this.txtFullName.Depth = 0;
             this.txtFullName.Hint = "";
             this.txtFullName.Location = new System.Drawing.Point(204, 124);
-            this.txtFullName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtFullName.Margin = new System.Windows.Forms.Padding(2);
             this.txtFullName.MouseState = MaterialSkin.MouseState.HOVER;
             this.txtFullName.Name = "txtFullName";
             this.txtFullName.PasswordChar = '\0';
@@ -177,7 +177,7 @@
             this.txtFullName.SelectionLength = 0;
             this.txtFullName.SelectionStart = 0;
             this.txtFullName.Size = new System.Drawing.Size(202, 23);
-            this.txtFullName.TabIndex = 6;
+            this.txtFullName.TabIndex = 1;
             this.txtFullName.UseSystemPasswordChar = false;
             this.txtFullName.Click += new System.EventHandler(this.materialSingleLineTextField2_Click);
             // 
@@ -187,7 +187,7 @@
             this.txtEmail.Depth = 0;
             this.txtEmail.Hint = "";
             this.txtEmail.Location = new System.Drawing.Point(204, 157);
-            this.txtEmail.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtEmail.Margin = new System.Windows.Forms.Padding(2);
             this.txtEmail.MouseState = MaterialSkin.MouseState.HOVER;
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.PasswordChar = '\0';
@@ -195,7 +195,7 @@
             this.txtEmail.SelectionLength = 0;
             this.txtEmail.SelectionStart = 0;
             this.txtEmail.Size = new System.Drawing.Size(202, 23);
-            this.txtEmail.TabIndex = 7;
+            this.txtEmail.TabIndex = 2;
             this.txtEmail.UseSystemPasswordChar = false;
             // 
             // txtAddress
@@ -204,7 +204,7 @@
             this.txtAddress.Depth = 0;
             this.txtAddress.Hint = "";
             this.txtAddress.Location = new System.Drawing.Point(204, 188);
-            this.txtAddress.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtAddress.Margin = new System.Windows.Forms.Padding(2);
             this.txtAddress.MouseState = MaterialSkin.MouseState.HOVER;
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.PasswordChar = '\0';
@@ -212,7 +212,7 @@
             this.txtAddress.SelectionLength = 0;
             this.txtAddress.SelectionStart = 0;
             this.txtAddress.Size = new System.Drawing.Size(202, 23);
-            this.txtAddress.TabIndex = 8;
+            this.txtAddress.TabIndex = 3;
             this.txtAddress.UseSystemPasswordChar = false;
             // 
             // txtSearch
@@ -220,7 +220,7 @@
             this.txtSearch.Depth = 0;
             this.txtSearch.Hint = "";
             this.txtSearch.Location = new System.Drawing.Point(204, 224);
-            this.txtSearch.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtSearch.Margin = new System.Windows.Forms.Padding(2);
             this.txtSearch.MouseState = MaterialSkin.MouseState.HOVER;
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.PasswordChar = '\0';
@@ -228,9 +228,10 @@
             this.txtSearch.SelectionLength = 0;
             this.txtSearch.SelectionStart = 0;
             this.txtSearch.Size = new System.Drawing.Size(202, 23);
-            this.txtSearch.TabIndex = 9;
+            this.txtSearch.TabIndex = 4;
             this.txtSearch.UseSystemPasswordChar = false;
             this.txtSearch.Click += new System.EventHandler(this.materialSingleLineTextField5_Click);
+            this.txtSearch.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtSearch_KeyDown);
             // 
             // btnSave
             // 
@@ -243,7 +244,7 @@
             this.btnSave.Name = "btnSave";
             this.btnSave.Primary = false;
             this.btnSave.Size = new System.Drawing.Size(46, 36);
-            this.btnSave.TabIndex = 10;
+            this.btnSave.TabIndex = 8;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.materialFlatButton1_Click);
@@ -259,13 +260,15 @@
             this.addressDataGridViewTextBoxColumn});
             this.dataGridView.DataSource = this.consultBindingSource;
             this.dataGridView.Location = new System.Drawing.Point(22, 271);
-            this.dataGridView.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView.Name = "dataGridView";
             this.dataGridView.RowHeadersWidth = 51;
             this.dataGridView.RowTemplate.Height = 24;
             this.dataGridView.Size = new System.Drawing.Size(621, 157);
-            this.dataGridView.TabIndex = 11;
+            this.dataGridView.TabIndex = 3;
             this.dataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_CellContentClick);
+            this.dataGridView.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dataGridView_KeyDown);
+            this.dataGridView.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.dataGridView_KeyPress);
             // 
             // phoneNumberDataGridViewTextBoxColumn
             // 
@@ -310,9 +313,10 @@
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Primary = false;
             this.btnCancel.Size = new System.Drawing.Size(64, 36);
-            this.btnCancel.TabIndex = 12;
+            this.btnCancel.TabIndex = 7;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnEdit
             // 
@@ -325,9 +329,10 @@
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Primary = false;
             this.btnEdit.Size = new System.Drawing.Size(41, 36);
-            this.btnEdit.TabIndex = 13;
+            this.btnEdit.TabIndex = 6;
             this.btnEdit.Text = "Edit";
             this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // btnNew
             // 
@@ -340,7 +345,7 @@
             this.btnNew.Name = "btnNew";
             this.btnNew.Primary = false;
             this.btnNew.Size = new System.Drawing.Size(42, 36);
-            this.btnNew.TabIndex = 14;
+            this.btnNew.TabIndex = 5;
             this.btnNew.Text = "New";
             this.btnNew.UseVisualStyleBackColor = true;
             this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
@@ -369,7 +374,7 @@
             this.Controls.Add(this.materialLabel2);
             this.Controls.Add(this.txtPhoneNumber);
             this.Controls.Add(this.materialLabel1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Consultant Page";
             this.Load += new System.EventHandler(this.Form1_Load);

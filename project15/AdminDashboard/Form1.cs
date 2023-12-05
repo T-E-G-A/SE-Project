@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using AdminDashboard.ConsultantDBDataSetTableAdapters;
 using MaterialSkin;
 
 namespace AdminDashboard
@@ -47,7 +48,21 @@ namespace AdminDashboard
 
         private void materialFlatButton1_Click(object sender, EventArgs e)
         {
+            try
+            {
+                Edit(false);
+                consultBindingSource.EndEdit();
+                consultTableAdapter.Update(consultantDBDataSet.Consult);
+                dataGridView.Refresh();
+                txtPhoneNumber.Focus();
+                MessageBox.Show("Data successfully saved","Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                consultantDBDataSet.Consult.RejectChanges();
 
+            }
         }
 
         private void materialLabel1_Click(object sender, EventArgs e)
@@ -72,7 +87,61 @@ namespace AdminDashboard
 
         private void btnNew_Click(object sender, EventArgs e)
         {
-           
+            try
+            {
+                Edit(true);
+                consultantDBDataSet.Consult.AddConsultRow(consultantDBDataSet.Consult.NewConsultRow());
+                consultBindingSource.MoveLast();
+                txtPhoneNumber.Focus();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                consultantDBDataSet.Consult.RejectChanges();
+
+            }
+        }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            Edit(true);
+            txtPhoneNumber.Focus();
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            Edit(false);
+            consultBindingSource.ResetBindings(false);
+        }
+
+        private void dataGridView_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if(e.KeyChar == (char)13)//enter
+            {
+                if (MessageBox.Show("Would you like to delete this record", "Message", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                    consultBindingSource.RemoveCurrent();
+            }
+        }
+
+        private void txtSearch_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                if (!string.IsNullOrEmpty(txtSearch.Text))
+                    consultBindingSource.Filter = string.Format("PhoneNumber = '{0}' OR FullName LIKE '*{1}*' OR Email = '{2}' OR Address LIKE '*{3}*'", txtPhoneNumber.Text, txtFullName.Text, txtEmail.Text, txtAddress.Text);
+                else
+                    consultBindingSource.Filter = string.Empty;
+            }
+        }
+
+        private void dataGridView_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.KeyCode == Keys.Delete)
+            {
+                if (MessageBox.Show("Would you like to delete this record", "Message", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                    consultBindingSource.RemoveCurrent();
+            }
+
         }
     }
 }
