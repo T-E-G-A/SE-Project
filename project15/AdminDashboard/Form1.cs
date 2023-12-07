@@ -26,8 +26,7 @@ namespace AdminDashboard
         private void Form1_Load(object sender, EventArgs e)
         {
             // TODO: This line of code loads data into the 'consultantDBDataSet.Consult' table. You can move, or remove it, as needed.
-            this.consultTableAdapter.Fill(this.consultantDBDataSet.Consult);
-            Edit(false);
+            int t1;
 
         }
         private void Edit(bool value)

@@ -65,5 +65,12 @@ namespace AdminDashboard
         {
 
         }
+
+        private void consultantPageButton_Click(object sender, EventArgs e)
+        {
+            Form1 f3 = new Form1();
+            f3.Show();
+
+        }
     }
 }
