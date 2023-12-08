@@ -58,7 +58,6 @@
             this.idTextBox = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             idLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.database21DataSet)).BeginInit();
@@ -296,7 +295,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(155, 36);
             this.button1.TabIndex = 15;
-            this.button1.Text = "Option1";
+            this.button1.Text = "Manage Permissions";
             this.button1.UseVisualStyleBackColor = false;
             // 
             // button2
@@ -311,23 +310,8 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(155, 36);
             this.button2.TabIndex = 16;
-            this.button2.Text = "Option2";
+            this.button2.Text = "Remove";
             this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.White;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(114, 303);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(155, 36);
-            this.button3.TabIndex = 17;
-            this.button3.Text = "Option3";
-            this.button3.UseVisualStyleBackColor = false;
             // 
             // button4
             // 
@@ -337,7 +321,7 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.Black;
-            this.button4.Location = new System.Drawing.Point(285, 303);
+            this.button4.Location = new System.Drawing.Point(198, 300);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(155, 36);
             this.button4.TabIndex = 18;
@@ -352,7 +336,6 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(21)))));
             this.ClientSize = new System.Drawing.Size(1336, 633);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(idLabel);
@@ -403,7 +386,6 @@
         private System.Windows.Forms.TextBox idTextBox;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
     }
 }
