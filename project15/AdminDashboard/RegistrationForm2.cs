@@ -11,8 +11,10 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp2
 {
+
     public partial class RegistrationForm2 : Form
     {
+        // The constructor initializes the UI components
         public RegistrationForm2()
         {
             InitializeComponent();
@@ -37,9 +39,10 @@ namespace WindowsFormsApp2
         {
 
         }
-
+        // This event handler is called when the "Registration" button is clicked
         private async void buttonRegister_Click(object sender, EventArgs e)
         {
+            // Check if the username, password, email, and confirm password fields are empty
             if (string.IsNullOrEmpty(userName.Text))
             {
                 MessageBox.Show("Enter Username", "Message", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -64,6 +67,7 @@ namespace WindowsFormsApp2
                 confirmPassword.Focus();
                 return;
             }
+            // Check if the username, password, and email length exceeds the maximum limit of 16 characters
             if (userName.Text.Length > 16)
             {
                 userName.Text = userName.Text.Substring(0, 16);
@@ -90,19 +94,24 @@ namespace WindowsFormsApp2
                 confirmPassword.Text = confirmPassword.Text.Substring(0, 16);
                 MessageBox.Show("The text entered exceeds the maximum limit of 16 characters.", "Message", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             confirmPassword.Focus();
-                return;}
+                return;
+            }
+            // Check if the passwords match
             if (passWord.Text != confirmPassword.Text)
             {
                 MessageBox.Show("Passwords don't match", "Message", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
             IregisterRepo repo = new registerRepo();
+            // Attempt to register the new user in the database
             bool result = await repo.Insert(new Reg() { Username = userName.Text, Password = passWord.Text, Email = eMail.Text });
+            // If registration is successful, display a message
             if (result)
                 MessageBox.Show("Registration Successful", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            // If registration fails, display a message
             else
                 MessageBox.Show("Registration Failed, Please try again", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            
+            // Display the main form
             mainForm f1 = new mainForm();
             f1.Show();
             this.Hide();
