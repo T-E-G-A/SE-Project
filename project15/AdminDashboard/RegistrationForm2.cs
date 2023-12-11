@@ -121,5 +121,27 @@ namespace WindowsFormsApp2
         {
 
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            // Create a new instance of the login form
+            LoginForm loginForm = new LoginForm();
+
+            // Show the login form
+            loginForm.Show();
+
+            // Hide the registration form
+            this.Hide();
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
